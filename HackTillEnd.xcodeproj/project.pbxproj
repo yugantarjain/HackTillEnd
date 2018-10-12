@@ -14,9 +14,12 @@
 		538CD161217078C400ECEADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538CD160217078C400ECEADE /* Assets.xcassets */; };
 		538CD164217078C400ECEADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538CD162217078C400ECEADE /* LaunchScreen.storyboard */; };
 		538CD16C21708A5700ECEADE /* al.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 538CD16B21708A5600ECEADE /* al.mp3 */; };
+		538CD16E2170A14900ECEADE /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 538CD16D2170A14900ECEADE /* GoogleService-Info-3.plist */; };
+		8D3892BC52296D5BFF5EBBD0 /* Pods_HackTillEnd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1756D211632C9D3B62A9E17A /* Pods_HackTillEnd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1756D211632C9D3B62A9E17A /* Pods_HackTillEnd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackTillEnd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		538CD154217078C300ECEADE /* HackTillEnd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackTillEnd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		538CD157217078C300ECEADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		538CD159217078C300ECEADE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +29,9 @@
 		538CD163217078C400ECEADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		538CD165217078C400ECEADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		538CD16B21708A5600ECEADE /* al.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = al.mp3; sourceTree = "<group>"; };
+		538CD16D2170A14900ECEADE /* GoogleService-Info-3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-3.plist"; sourceTree = "<group>"; };
+		C4DE543A1D24D3E448487B8A /* Pods-HackTillEnd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackTillEnd.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackTillEnd/Pods-HackTillEnd.release.xcconfig"; sourceTree = "<group>"; };
+		F5740A26EDBA1566FA51B7EC /* Pods-HackTillEnd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackTillEnd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackTillEnd/Pods-HackTillEnd.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D3892BC52296D5BFF5EBBD0 /* Pods_HackTillEnd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B0D582BC390E5FBBAC3E397 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5740A26EDBA1566FA51B7EC /* Pods-HackTillEnd.debug.xcconfig */,
+				C4DE543A1D24D3E448487B8A /* Pods-HackTillEnd.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		538CD14B217078C300ECEADE = {
 			isa = PBXGroup;
 			children = (
 				538CD156217078C300ECEADE /* HackTillEnd */,
 				538CD155217078C300ECEADE /* Products */,
+				1B0D582BC390E5FBBAC3E397 /* Pods */,
+				F2017FF6F731E4684C7D214E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +84,17 @@
 				538CD160217078C400ECEADE /* Assets.xcassets */,
 				538CD162217078C400ECEADE /* LaunchScreen.storyboard */,
 				538CD165217078C400ECEADE /* Info.plist */,
+				538CD16D2170A14900ECEADE /* GoogleService-Info-3.plist */,
 			);
 			path = HackTillEnd;
+			sourceTree = "<group>";
+		};
+		F2017FF6F731E4684C7D214E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1756D211632C9D3B62A9E17A /* Pods_HackTillEnd.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 538CD168217078C400ECEADE /* Build configuration list for PBXNativeTarget "HackTillEnd" */;
 			buildPhases = (
+				3D58808578603747FD560801 /* [CP] Check Pods Manifest.lock */,
 				538CD150217078C300ECEADE /* Sources */,
 				538CD151217078C300ECEADE /* Frameworks */,
 				538CD152217078C300ECEADE /* Resources */,
+				E03775ACCA793C7F4E1210AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,10 +161,54 @@
 				538CD16C21708A5700ECEADE /* al.mp3 in Resources */,
 				538CD161217078C400ECEADE /* Assets.xcassets in Resources */,
 				538CD15F217078C300ECEADE /* Main.storyboard in Resources */,
+				538CD16E2170A14900ECEADE /* GoogleService-Info-3.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D58808578603747FD560801 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackTillEnd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E03775ACCA793C7F4E1210AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HackTillEnd/Pods-HackTillEnd-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackTillEnd/Pods-HackTillEnd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		538CD150217078C300ECEADE /* Sources */ = {
@@ -286,15 +359,13 @@
 		};
 		538CD169217078C400ECEADE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5740A26EDBA1566FA51B7EC /* Pods-HackTillEnd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZCF7ZR4CVF;
 				INFOPLIST_FILE = HackTillEnd/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.HackTillEnd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -304,15 +375,13 @@
 		};
 		538CD16A217078C400ECEADE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4DE543A1D24D3E448487B8A /* Pods-HackTillEnd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZCF7ZR4CVF;
 				INFOPLIST_FILE = HackTillEnd/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.HackTillEnd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

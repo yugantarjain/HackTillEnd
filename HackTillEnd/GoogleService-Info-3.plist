@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1041515056619-os5mvur8kv4q559k780mke1vulbvsuld.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1041515056619-os5mvur8kv4q559k780mke1vulbvsuld</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAbTGof8V3kmz1Ks734McM3jxsdeeya5_E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1041515056619</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.HackTillEnd</string>
+	<key>PROJECT_ID</key>
+	<string>hacktillend-3a69f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hacktillend-3a69f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1041515056619:ios:ad52a01e1dca315c</string>
+	<key>DATABASE_URL</key>
+	<string>https://hacktillend-3a69f.firebaseio.com</string>
+</dict>
+</plist>
