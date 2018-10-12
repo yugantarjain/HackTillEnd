@@ -13,6 +13,7 @@
 		538CD15F217078C300ECEADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538CD15D217078C300ECEADE /* Main.storyboard */; };
 		538CD161217078C400ECEADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538CD160217078C400ECEADE /* Assets.xcassets */; };
 		538CD164217078C400ECEADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538CD162217078C400ECEADE /* LaunchScreen.storyboard */; };
+		538CD16C21708A5700ECEADE /* al.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 538CD16B21708A5600ECEADE /* al.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		538CD160217078C400ECEADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		538CD163217078C400ECEADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		538CD165217078C400ECEADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538CD16B21708A5600ECEADE /* al.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = al.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		538CD156217078C300ECEADE /* HackTillEnd */ = {
 			isa = PBXGroup;
 			children = (
+				538CD16B21708A5600ECEADE /* al.mp3 */,
 				538CD157217078C300ECEADE /* AppDelegate.swift */,
 				538CD159217078C300ECEADE /* FirstViewController.swift */,
 				538CD15B217078C300ECEADE /* SecondViewController.swift */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				538CD164217078C400ECEADE /* LaunchScreen.storyboard in Resources */,
+				538CD16C21708A5700ECEADE /* al.mp3 in Resources */,
 				538CD161217078C400ECEADE /* Assets.xcassets in Resources */,
 				538CD15F217078C300ECEADE /* Main.storyboard in Resources */,
 			);
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCF7ZR4CVF;
 				INFOPLIST_FILE = HackTillEnd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCF7ZR4CVF;
 				INFOPLIST_FILE = HackTillEnd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
