@@ -34,6 +34,10 @@ class rightsTableViewController: UITableViewController {
             let b = snapshot.value as! String
             self.postData.append(a)
             self.postData2.append(b)
+            print(a)
+            print(b)
+            self.tableView.reloadData()
+
         })
     }
 
@@ -44,14 +48,14 @@ class rightsTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
+   /* override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 0
-    }
+    }*/
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return postData.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

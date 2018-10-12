@@ -13,10 +13,8 @@ class messageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        if !MFMessageComposeViewController.canSendText() {
-            dismiss(animated: true) {
-                print("dismised")
-            }
+        dismiss(animated: true) {
+            print("d")
         }
 
         // Do any additional setup after loading the view.
