@@ -8,12 +8,26 @@
 
 import UIKit
 import AVFoundation
+import MessageUI
 
-class SecondViewController: UIViewController, AVAudioPlayerDelegate {
+class SecondViewController: UIViewController, AVAudioPlayerDelegate, MFMessageComposeViewControllerDelegate {
+    func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
+        
+    }
+    
     
     var player: AVAudioPlayer = AVAudioPlayer()
     
-
+    @IBAction func sms(_ sender: UIButton) {
+        let composeVC = MFMessageComposeViewController()
+        composeVC.messageComposeDelegate = self
+        
+        composeVC.recipients = ["9643681599"]
+        composeVC.body = "HELP NEEDED"
+        // Present the view controller modally.
+        self.performSegue(withIdentifier: "composeVC", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

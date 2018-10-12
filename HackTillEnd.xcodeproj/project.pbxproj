@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		538CD158217078C300ECEADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538CD157217078C300ECEADE /* AppDelegate.swift */; };
-		538CD15A217078C300ECEADE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538CD159217078C300ECEADE /* FirstViewController.swift */; };
 		538CD15C217078C300ECEADE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538CD15B217078C300ECEADE /* SecondViewController.swift */; };
 		538CD15F217078C300ECEADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538CD15D217078C300ECEADE /* Main.storyboard */; };
 		538CD161217078C400ECEADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538CD160217078C400ECEADE /* Assets.xcassets */; };
 		538CD164217078C400ECEADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538CD162217078C400ECEADE /* LaunchScreen.storyboard */; };
 		538CD16C21708A5700ECEADE /* al.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 538CD16B21708A5600ECEADE /* al.mp3 */; };
-		538CD16E2170A14900ECEADE /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 538CD16D2170A14900ECEADE /* GoogleService-Info-3.plist */; };
+		53C8DC1E2170ADD300A5218B /* messageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C8DC1D2170ADD300A5218B /* messageViewController.swift */; };
+		53C8DC202170B28E00A5218B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53C8DC1F2170B28E00A5218B /* GoogleService-Info.plist */; };
+		53C8DC222170B4A800A5218B /* rightsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C8DC212170B4A800A5218B /* rightsTableViewController.swift */; };
 		8D3892BC52296D5BFF5EBBD0 /* Pods_HackTillEnd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1756D211632C9D3B62A9E17A /* Pods_HackTillEnd.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,14 +23,15 @@
 		1756D211632C9D3B62A9E17A /* Pods_HackTillEnd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackTillEnd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		538CD154217078C300ECEADE /* HackTillEnd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackTillEnd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		538CD157217078C300ECEADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		538CD159217078C300ECEADE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		538CD15B217078C300ECEADE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		538CD15E217078C300ECEADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		538CD160217078C400ECEADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		538CD163217078C400ECEADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		538CD165217078C400ECEADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		538CD16B21708A5600ECEADE /* al.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = al.mp3; sourceTree = "<group>"; };
-		538CD16D2170A14900ECEADE /* GoogleService-Info-3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-3.plist"; sourceTree = "<group>"; };
+		53C8DC1D2170ADD300A5218B /* messageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messageViewController.swift; sourceTree = "<group>"; };
+		53C8DC1F2170B28E00A5218B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		53C8DC212170B4A800A5218B /* rightsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rightsTableViewController.swift; sourceTree = "<group>"; };
 		C4DE543A1D24D3E448487B8A /* Pods-HackTillEnd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackTillEnd.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackTillEnd/Pods-HackTillEnd.release.xcconfig"; sourceTree = "<group>"; };
 		F5740A26EDBA1566FA51B7EC /* Pods-HackTillEnd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackTillEnd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackTillEnd/Pods-HackTillEnd.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,15 +78,16 @@
 		538CD156217078C300ECEADE /* HackTillEnd */ = {
 			isa = PBXGroup;
 			children = (
+				53C8DC1F2170B28E00A5218B /* GoogleService-Info.plist */,
 				538CD16B21708A5600ECEADE /* al.mp3 */,
 				538CD157217078C300ECEADE /* AppDelegate.swift */,
-				538CD159217078C300ECEADE /* FirstViewController.swift */,
+				53C8DC1D2170ADD300A5218B /* messageViewController.swift */,
 				538CD15B217078C300ECEADE /* SecondViewController.swift */,
+				53C8DC212170B4A800A5218B /* rightsTableViewController.swift */,
 				538CD15D217078C300ECEADE /* Main.storyboard */,
 				538CD160217078C400ECEADE /* Assets.xcassets */,
 				538CD162217078C400ECEADE /* LaunchScreen.storyboard */,
 				538CD165217078C400ECEADE /* Info.plist */,
-				538CD16D2170A14900ECEADE /* GoogleService-Info-3.plist */,
 			);
 			path = HackTillEnd;
 			sourceTree = "<group>";
@@ -159,9 +162,9 @@
 			files = (
 				538CD164217078C400ECEADE /* LaunchScreen.storyboard in Resources */,
 				538CD16C21708A5700ECEADE /* al.mp3 in Resources */,
+				53C8DC202170B28E00A5218B /* GoogleService-Info.plist in Resources */,
 				538CD161217078C400ECEADE /* Assets.xcassets in Resources */,
 				538CD15F217078C300ECEADE /* Main.storyboard in Resources */,
-				538CD16E2170A14900ECEADE /* GoogleService-Info-3.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +220,8 @@
 			files = (
 				538CD15C217078C300ECEADE /* SecondViewController.swift in Sources */,
 				538CD158217078C300ECEADE /* AppDelegate.swift in Sources */,
-				538CD15A217078C300ECEADE /* FirstViewController.swift in Sources */,
+				53C8DC222170B4A800A5218B /* rightsTableViewController.swift in Sources */,
+				53C8DC1E2170ADD300A5218B /* messageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +369,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZCF7ZR4CVF;
 				INFOPLIST_FILE = HackTillEnd/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.HackTillEnd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -381,7 +388,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZCF7ZR4CVF;
 				INFOPLIST_FILE = HackTillEnd/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.HackTillEnd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
